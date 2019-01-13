@@ -1,5 +1,4 @@
-网关远程控制服务器配置文件。
-
+Remote controller server configuration files
 
 apt install nginx php
 

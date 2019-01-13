@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  php-apache:
+    image: tutum/apache-php
+    ports: 
+      - 8889:80
+    volumes:
+      - /var/www/html:/var/www/html

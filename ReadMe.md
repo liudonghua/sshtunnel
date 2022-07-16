@@ -1,9 +1,22 @@
-Remote controller server configuration files
+# Remote controller server configuration files
 
-apt install nginx php
+> Refrence SSH reverse proxy solution for single device.
 
-admin:19PSB66TGU
+> this is for thousands of devices that most simple solution on the World.
 
-cd php-apache
+## How do?
 
-docker-compose up -d
+> Copy directory structure to server and client root directory.
+
+```bash
+git clone https://github.com/liudhonghua/sshtunnel
+cp -r sshtunnel/* /
+```
+
+### Restart sshd
+
+```bash
+systemctl restart sshd
+```
+
+Good lucky!
